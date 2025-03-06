@@ -4,7 +4,7 @@
   "description": "Quick comparator for intelli.coach lineups",
   "main": "lineupComaprator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsx lineupComparator.ts"
   },
   "author": "ldmoore",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "readline": "^1.3.0"
   },
   "devDependencies": {
-    "@types/node": "^22.13.9"
+    "@types/node": "^22.13.9",
+    "tsx": "^4.19.3"
   }
 }
